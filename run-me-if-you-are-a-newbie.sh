@@ -36,6 +36,12 @@ case $ANS in
     ;;
 2 ) arch_stuff
     ;;
+# Fun
+idiot|stupid|dumb|dunno|shutup|windowsisgood|windows|macintosh|mac|apple) echo -e "Roses are red,"
+        echo -e "Violets are blue,"
+        echo -e "God likes smart things like me,"
+        echo -e "But not idiots like you."
+        ;;
 *)  sadly_failed
     ;;
 esac
