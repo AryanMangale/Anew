@@ -5,7 +5,7 @@ to_install=(gvim curl git)
 
 # Fuction to install packages
 install_package(){
-    # Check is package exists
+    # Check if package exists
     # Exit code 1 means not installed, and exit code 0 means installed.
 }
 
