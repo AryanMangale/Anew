@@ -1,10 +1,13 @@
 #!/bin/bash
 
-#Playing around with arrays
+# Array with packages to install
 to_install=(gvim curl git)
 
-whatever(){
-    echo "The item name is $1"
+# Fuction to install packages
+install_package(){
+    # Check if package exists
+    # Exit code 1 means not installed, and exit code 0 means installed.
+
 }
 
 for item in "${to_install[@]}"; do (whatever $item); done
