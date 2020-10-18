@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Array with packages to install
-to_install=(gvim curl git sl wget code nano gedit gdm gnome gnome-extra)
+# Arrays with packages to install
+core=(curl git wget)
+editors=(vim gedit nano code)
+gnome=(gdm gnome gnome-extra)
 
 # Fuction to install packages
 install_package(){
@@ -16,5 +18,6 @@ install_package(){
     fi
 }
 
-for item in "${to_install[@]}"; do (install_package $item); done
-
+for item in "${core[@]}"; do (install_package $item); done
+for item in "${editors[@]}"; do (install_package $item); done
+for item in "${gnome[@]}"; do (install_package $item); done
