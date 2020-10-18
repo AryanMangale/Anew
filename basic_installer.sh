@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array with packages to install
-to_install=(gvim curl git sl code nano gedit gdm gnome gnome-extra)
+to_install=(gvim curl git sl wget code nano gedit gdm gnome gnome-extra)
 
 # Fuction to install packages
 install_package(){
