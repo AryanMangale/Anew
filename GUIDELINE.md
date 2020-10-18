@@ -14,6 +14,7 @@ A guideline to how the code should be structured.
     - Other packages - `vim`
     - AUR helpers - `yay`
     - Gnome - `gdm`, `gnome`, `gnome-extra`
+    - Suggestions for packages are welcome! (Just open an issue with the title "Suggestion")
 
 ## What to run
 - Create a "main" script which will be directly executed and will executed all the other scripts automatically
