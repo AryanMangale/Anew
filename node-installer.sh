@@ -9,7 +9,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Install the latest LTS version of node
-nvm install v12.19.0
+nvm install v14.15.1
 
 source ~/.bashrc
 node -v
